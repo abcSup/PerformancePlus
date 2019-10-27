@@ -25,4 +25,4 @@ Being aware of the decisions you've made in the past is very important when trad
 
 ChatBot and Notification System with Machine Learning
 -----
-We used the machine learning to sort data retrieved from the Goldman Sachs' database on fundamental attributes of stocks to update users with the most accurate and crucial data through a ChatBot. In order to implement this, we used Microsoft’s Azure Bot Service that provided us with a platform to create an intelligent chat bot that understand the meaning of each instruction given. 
+We used the machine learning to sort data retrieved from the Goldman Sachs' database on fundamental attributes of stocks to update users with the most accurate and crucial data through a ChatBot. In order to implement this, we used Microsoft’s Azure Bot Service which provided us with a platform to create an intelligent chat bot that understands the meaning of each instruction given. 
