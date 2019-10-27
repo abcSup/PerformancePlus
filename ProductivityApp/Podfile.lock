@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - Highcharts (7.2.0)
+  - SCLAlertView (0.8)
+  - SwiftyGif (5.2.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.2)
+  - Highcharts (~> 7.2.0)
+  - SCLAlertView
+  - SwiftyGif
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Highcharts
+    - SCLAlertView
+    - SwiftyGif
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  Highcharts: 8f947193ff8ef2de03310eb2a5c8497706763afc
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: a112f5372cee30041c20455b094f4222e434f3fc
+
+COCOAPODS: 1.8.4
