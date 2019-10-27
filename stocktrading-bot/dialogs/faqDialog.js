@@ -20,6 +20,7 @@ class FaqDialog extends ComponentDialog {
     this.addDialog(new WaterfallDialog(FAQWATERFLALL, [
       this.askStep.bind(this),
       this.answerStep.bind(this),
+      this.loopStep.bind(this),
     ]));
 
     this.initialDialogId = FAQWATERFLALL;
