@@ -141,11 +141,21 @@
                                     <action selector="setAlarmPressed:" destination="HW0-9J-6HP" eventType="touchUpInside" id="bd9-5c-ahQ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart_rate" translatesAutoresizingMaskIntoConstraints="NO" id="7kl-j8-LcQ">
+                                <rect key="frame" x="0.0" y="479" width="375" height="168"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="A1t-tE-gVK"/>
+                                    <constraint firstAttribute="height" constant="168" id="hNd-eI-fqc"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ldB-i7-fcr" firstAttribute="centerX" secondItem="uGD-38-puQ" secondAttribute="centerX" id="4xY-xk-RWN"/>
+                            <constraint firstItem="7kl-j8-LcQ" firstAttribute="leading" secondItem="uGD-38-puQ" secondAttribute="leading" id="5kV-v9-N27"/>
                             <constraint firstItem="ldB-i7-fcr" firstAttribute="top" secondItem="Pd1-qt-PCX" secondAttribute="bottom" constant="16" id="BWz-ti-5EE"/>
+                            <constraint firstItem="uGD-38-puQ" firstAttribute="trailing" secondItem="7kl-j8-LcQ" secondAttribute="trailing" id="Vsq-A8-Qap"/>
+                            <constraint firstItem="uGD-38-puQ" firstAttribute="bottom" secondItem="7kl-j8-LcQ" secondAttribute="bottom" constant="20" id="aKQ-Q2-its"/>
                             <constraint firstItem="Pd1-qt-PCX" firstAttribute="centerX" secondItem="uGD-38-puQ" secondAttribute="centerX" id="qBQ-m7-WuH"/>
                             <constraint firstItem="Pd1-qt-PCX" firstAttribute="top" secondItem="uGD-38-puQ" secondAttribute="top" constant="32" id="v6r-BS-GLQ"/>
                         </constraints>
@@ -405,7 +415,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="2nf-j1-Y22"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Advice">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -444,7 +454,11 @@
                         <viewLayoutGuide key="safeArea" id="edn-cv-zio"/>
                     </view>
                     <navigationItem key="navigationItem" title="Finance" id="8Hp-n4-7As">
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="bdk-wx-Lda"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="bdk-wx-Lda">
+                            <connections>
+                                <action selector="summaryButtonPressed:" destination="6K6-Yh-6fU" id="4b5-OD-5xk"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="askTextField" destination="5cq-3N-gFv" id="QkT-E9-czt"/>
@@ -825,6 +839,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vyN-nY-UNs"/>
-        <segue reference="22T-03-ruV"/>
+        <segue reference="7gH-oB-jiu"/>
     </inferredMetricsTieBreakers>
 </document>

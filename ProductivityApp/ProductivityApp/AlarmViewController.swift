@@ -23,7 +23,7 @@ class AlarmViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        _ = Timer.scheduledTimer(timeInterval: 15, target: self, selector: Selector("checkIfRestless"), userInfo: nil, repeats: true)
+        _ = Timer.scheduledTimer(timeInterval: 60, target: self, selector: Selector("checkIfRestless"), userInfo: nil, repeats: true)
     }
     
     @objc

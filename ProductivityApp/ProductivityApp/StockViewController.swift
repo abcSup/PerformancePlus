@@ -14,6 +14,13 @@ import SCLAlertView
 
 class StockViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource  {
     
+    @IBAction func summaryButtonPressed(_ sender: Any) {
+        print("Pressed")
+        let alert = SCLAlertView()
+        alert.showInfo("You have requested a summary of your trading history.", subTitle: "")
+        AF.request("https://calhacks-fitbit-server.appspot.com/docu", method: .get)
+    }
+    
     let data = [
         Stock(title: "AAPL", subtitle: "Apple Inc.", price: 246.58, change: 3.0),
         Stock(title: "GOOG", subtitle: "Alphabet Inc.", price: 1265.13, change: 4.14),
